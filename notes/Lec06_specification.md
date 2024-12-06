@@ -88,13 +88,11 @@ Abstractly speaking, a *specification* of a method has several parts:
 
     
 
-###### Specification Structure (2 / 4)
+###### Specification Structure: Precondition
 
 Taken together, these parts form the *precondition* and the *postcondition* of the method
 
-- The precondition is an obligation on the client (caller), a condition over the state 
-  
-  - In which the method is invoked
+- Precondition's an obligation on client (caller), the state when the method's invoked
 
 - One aspect of the precondition is # and types of the parameters in the signature 
 
